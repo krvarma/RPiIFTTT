@@ -11,4 +11,16 @@ Last week I though of trying this with Windows 10 IoT Core. Here is a project I 
 
 **Screenshots**
 
+![Raspberry Pi and TSL2561](https://raw.githubusercontent.com/krvarma/RPiIFTTT/master/images/IMG_0066.JPG)
+
+![Raspberry Pi and TSL2561](https://raw.githubusercontent.com/krvarma/RPiIFTTT/master/images/IMG_0068.JPG)
+
+![Recipe Lower Limit](https://raw.githubusercontent.com/krvarma/RPiIFTTT/master/images/Recipe1.png)
+
+![Recipe Higher Limit](https://raw.githubusercontent.com/krvarma/RPiIFTTT/master/images/Recipe2.png)
+
+![Recipe Normal Limit](https://raw.githubusercontent.com/krvarma/RPiIFTTT/master/images/Recipe3.png)
+
 **Demo Video**
+
+[Video](https://www.youtube.com/watch?v=wn_HekLz2rk)
