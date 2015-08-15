@@ -7,20 +7,20 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="0c8fde19-b216-4509-8f3f-457fa6fb56ef"
-    Publisher="CN=krvarma"
+    Name="607b4080-f62d-436b-ab3c-884dfb6c6c9b"
+    Publisher="CN=krvar"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="0c8fde19-b216-4509-8f3f-457fa6fb56ef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="607b4080-f62d-436b-ab3c-884dfb6c6c9b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>RPiIFTTT</DisplayName>
-    <PublisherDisplayName>krvarma</PublisherDisplayName>
+    <PublisherDisplayName>krvar</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
 
   <Resources>
@@ -33,10 +33,11 @@
       EntryPoint="RPiIFTTT.App">
       <uap:VisualElements
         DisplayName="RPiIFTTT"
-        Square150x150Logo="Assets\Logo.png"
-        Square44x44Logo="Assets\SmallLogo.png"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
         Description="RPiIFTTT"
-        BackgroundColor="#464646">
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
@@ -44,6 +45,5 @@
 
   <Capabilities>
     <Capability Name="internetClient" />
-    <Capability Name="internetClientServer" />
-</Capabilities>
+  </Capabilities>
 </Package>
